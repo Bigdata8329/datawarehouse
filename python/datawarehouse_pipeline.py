@@ -31,4 +31,7 @@ df_filtered = df_transformed.filter(config["transformations"]["filter_condition"
 df_filtered.show()
 
 # Write transformed data to destination
-df_filtered.write.format(config["data"]["output"]["format"]).save(config["data"]["output"]["path"])
+
+
+
+print("Hello This is Priyanka")
